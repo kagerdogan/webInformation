@@ -1,0 +1,59 @@
+#ileti{
+  display: flex;
+    text-align: center;
+    background:url(/img/contact5.1.jpg);
+    background-position: top center;
+    font-family: sans-serif;
+    opacity: 0.95;
+  }
+  #ileti .contact-title{
+    margin-top: 0px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+  }
+  #ileti .contact-title h1{
+    font-size:32px;
+    line-height: 10px;
+    margin-bottom: 30px;
+    
+  }
+  #ileti .contact-title h2{
+    font-size:16px;
+    margin-bottom: 75px;
+    font-family: sans-serif;
+  }
+
+  #ileti .form-control{
+  
+    width:600px;
+    background:  transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  #ileti input{
+    height: 45px;
+  }
+  #ileti form .submit{
+    display: flex;
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 2px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top:20px;
+    margin-bottom: 60px;
+  }
+  #ileti form .submit:hover{
+    background-color:  #f44336;
+    cursor: pointer;
+  }
+  #ileti .contact-form{
+    background-color: rgba(22, 21, 21, 0.479);
+  }

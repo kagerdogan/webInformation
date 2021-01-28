@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>İstanbul Mimarlık ve Dekorasyon</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+      <section class="contact">
+       <div class="content">
+         <h2>Bize Ulaşın</h2>
+         <p>Bize Ulaınız merhaba sdkasdasd</p>
+       </div>
+       <div class="container">
+         <div class="contactInfo">
+           <div class="box">
+             <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+             <div class="text">
+               <h3>Adres</h3>
+               <p>İstanbuL Türkiye</p>
+             </div>
+           </div>
+           <div class="box">
+            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>Telefon</h3>
+              <p>+90123456789</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+            <div class="text">
+              <h3>E-mail</h3>
+              <p>info@mimarlık.com</p>
+            </div>
+          </div>
+         </div>
+         <div class="contactForm">
+           <form>
+             <h2>Mesaj Gönderin</h2>
+             <div class="inputBox">
+               <input type="text" name="" required placeholder="İsminiz">
+               
+             </div>
+             <div class="inputBox">
+              <input type="text" name="" required placeholder="E-mail">
+              
+            </div>
+            <div class="inputBox">
+              <textarea placeholder="Mesajınız" required></textarea>
+              
+            </div>
+            <div class="inputBox">
+              <input type="submit" name="" >
+              
+            </div>
+           </form>
+         </div>
+       </div>
+      </section>
+          
+    </body>
+</html>
+
+<style>
+
+  .contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(/img/contact5.2.jpg);
+    background-size: contain;
+    opacity: 0.95;
+  }
+  .contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color:#fff;
+  }
+  .contact .content p{
+    font-weight: 300;
+    color: #fff;
+  } 
+  .container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .container .contactInfo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+  }
+  .container .contactInfo .box .icon{
+   min-width: 60px;
+   height: 60px;
+   background: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   font-size: 22px;
+  }
+  .container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;  
+    color:#fff;
+    flex-direction: column;
+    font-weight: 300;
+  }
+  .container .contactInfo .box .text h3{
+    font-weight: 500;
+    color:#00bcd4;
+  }
+  .contactForm
+  {
+    width: 40%;
+    padding: 40px;
+    background-color: rgba(22, 21, 21, 0.555);
+  }
+  .contactForm h2{
+    font-size: 30px;
+    color:#333;
+    font-weight: 500;
+  }
+  .contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top:10px;
+  }
+  .contactForm .inputBox input,
+  .contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size:16px;
+    margin: 10px 0;
+    border:none;
+    border-bottom: 2px solid #333;
+    outline: none;
+  }
+  .contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size:16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+  }
+  .contactForm .inputBox input:focus ~span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translate(-20px);
+  }
+  .contactForm .inputBox input[type="submit"]
+  {
+    width: 100px;
+    background: #00bcd4;
+    color:#fff;
+    border:none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+  }
+  @media(max-width: 991px)
+  {
+    .contact
+    {
+      padding:50px;
+    }
+    .container
+    {
+      flex-direction: column;
+    }
+    .container .contactInfo
+    {
+      margin-bottom: 40px;
+    }
+    .container .contactInfo
+    {
+      width: 100%;
+    }
+  }
+</style>
