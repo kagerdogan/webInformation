@@ -78,15 +78,24 @@ p {
 	height: 40px;
 	padding-top:70px;
 }
-.affix {
-	top: 40px;
-	width: 100%;
-	z-index: 9999 !important;
-}
-
-.affix{
-	padding-top: 70px;
-}
+#hero .container-affix{
+	 position:absolute;
+	 height: 30px;
+	 width: 100%;
+	 background-color: grey;
+	 z-index: 1000;
+ }
+#hero .container-affix h1{
+	 font-size: 20px;
+	 position: relative;
+	 left: 10%;
+ }
+#hero .container-affix h2{
+	 font-size: 20px;
+	 position: absolute;
+	 left:80%;
+	 top: 0;
+ }
 /*End Affix*/
 
 /* Header section */
@@ -94,7 +103,7 @@ p {
 	position: fixed;
 	z-index: 1000;
 	left: 0;
-	top: 0px;
+	margin-top: 30px;
 	width: 100vw;
 	height: auto;
 }
@@ -112,6 +121,7 @@ p {
 	height: 100%;
 	max-width: 1300px;
 	padding: 0 10px;
+	
 }
 #header .nav-list ul {
 	list-style: none;
@@ -556,9 +566,10 @@ p {
 	}
 /* End Slider */
 /* Footer */
-#footer footer {
-	position: absolute;
-	bottom: 0;
+
+#footer .footer {
+	position: static;
+	top:100%;
 }
 
 #footer .footer-distributed {
